@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>COS10026 Unit Outline</title>
@@ -13,9 +11,9 @@
       max-width: 800px;
       line-height: 1.4;
       font-size: 14px;
+      padding: 0 20px;
     }
 
-    
     .header-area h1 {
       font-size: 26px;
       font-weight: bold;
@@ -34,17 +32,10 @@
       margin: 0 0 16px 0;
     }
 
-    .school-logo {
-      width: 220px;
-      height: auto;
-      display: block;
-      margin-bottom: 20px;
-    }
-
     .header-area hr {
       border: none;
       border-top: 1px solid #000;
-      margin: 0 0 20px 0;
+      margin: 20px 0;
     }
 
     h2.section-heading {
@@ -78,7 +69,6 @@
       margin-bottom: 4px;
     }
 
-    
     table.assessment-table {
       width: 100%;
       border-collapse: collapse;
@@ -98,12 +88,17 @@
       background-color: transparent;
     }
 
-    
+    /* Creates the wide gap between the table and the bottom line */
+    footer {
+      margin-top: 450px; /* Adjust higher or lower to match your screen */
+      break-before: page;
+      page-break-before: always;
+    }
+
     footer hr {
       border: none;
-      border-top: 1px solid #000;
-      margin-top: 40px;
-      margin-bottom: 15px;
+      border-top: 1.5px solid #000;
+      margin: 0 0 12px 0;
     }
 
     .footer-content {
@@ -125,15 +120,14 @@
 </head>
 <body>
 
-  
   <div class="header-area">
     <h1>Unit Outline</h1>
     <h2>COS10026</h2>
     <h3>Web Technology Project</h3>
     <img src="swin_logo.png" alt="Swinburne University of Technology Logo" style="width: 25%; height: auto;">
     <hr>
-    </div>
-  
+  </div>
+
   <h2 class="section-heading">Aims</h2>
   <p>
     This project-based unit focuses on developing your skills to build web applications
@@ -145,7 +139,6 @@
     collaborative project management techniques to achieve these objectives.
   </p>
 
- 
   <h2 class="section-heading">Unit Learning Outcomes</h2>
   <p>Students who successfully complete this unit can:</p>
   <ol>
@@ -158,7 +151,6 @@
     <li><strong>ULO7:</strong> Assess ethical considerations and security practices in web development, including accessibility and user privacy.</li>
   </ol>
 
-  
   <h2 class="section-heading">Content</h2>
   <ul class="content-list">
     <li>Core Front-End and Back-End Development</li>
@@ -170,7 +162,6 @@
     <li>Teamwork Framework</li>
   </ul>
 
-  
   <h2 class="section-heading">Assessments Overview</h2>
   <table class="assessment-table">
     <thead>
@@ -203,7 +194,6 @@
     </tbody>
   </table>
 
- 
   <footer>
     <hr>
     <div class="footer-content">
@@ -214,4 +204,3 @@
 
 </body>
 </html>
-
